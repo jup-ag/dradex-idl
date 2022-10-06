@@ -1,5 +1,5 @@
 {
-  "name": "@dradex/idl",
+  "name": "@jup-ag/dradex-idl",
   "version": "0.2.0",
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -20,5 +20,8 @@
   },
   "devDependencies": {
     "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.json"
   }
 }
